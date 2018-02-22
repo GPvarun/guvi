@@ -7,7 +7,7 @@ int main(void) {
 	v=a;
 	a=b;
 	b=v;
-	printf("%d",a);
+	printf("\n%dafter swap",a);
 	printf("\n%d",b);
 	
 	return 0;
