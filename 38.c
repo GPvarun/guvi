@@ -1,12 +1,12 @@
 #include <stdio.h>
 
 int main(void) {
-	int a,b,temp;
+	int a,b,v;
 	printf("enter the number");
 	scanf("%d %d",&a,&b);
-	temp=a;
+	v=a;
 	a=b;
-	b=temp;
+	b=v;
 	printf("%d",a);
 	printf("\n%d",b);
 	
