@@ -1,11 +1,11 @@
-#include <stdio.h>
+include <stdio.h>
 
 int main()
 {
-    char n[30],v,a;
+    char n[30];
     printf("enter the numbers");
 scanf("%s",&n);
-if((n=='a' && n=='z') || (n=='A' && n=='Z')||(n=='0'&& n=='9'))
+if((n<='a' && n>='z') ||(n<='A' && n>='Z')||(n<='0'&& n>='9'))
 {
 printf("yes");
 }
@@ -15,4 +15,3 @@ printf("no");
 }
     return 0;
 }
-
